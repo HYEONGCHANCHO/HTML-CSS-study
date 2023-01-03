@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1>input type 모든 옵션들 : </h1>
+    <form action="#">
+        First name : <input type="text" name="first name"><br>
+        Last name : <input type="text" name="Last name"><br>
+        좋아하는 색상을 선택 : <input type="color" name="favcolor" value="#ff0000"><br>
+        생일 : <input type="date" name="date"><br>
+        생일 (날짜 &amp; 시간) : <input type="datetime-local" name="datetime"><br>
+        생일 (달, 년) <input type="month" name="month" ><br>
+        select a week <input type="week" name="week"><br>
+        E-mail : <input type="email" name="email"><br>
+
+        <h4>여러개의 이메일은 콤마로 구분</h4>
+        E-mails : <input type="email" name="emails" multiple> <br>
+        password(8자리) : <input type="password" name="psd" maxlength="8"><br>
+        파일 1개 선택 : <input type="file" name="file"><br>
+        파일 여러개 선택 : <input type="file" name="files" multiple>
+        <input type="hidden" name="hidden"><br>
+        <input type="image" src="../images/img_submit.png" alt="submit" width="150" height="50"><br>
+        Quantity (between 1 and 5) : <input type="number" name="quantity" min="1" max="5"> <br>
+
+        성별을 선택하세요<br>
+        <input type="radio" name="gender" value="Male">male
+        <input type="radio" name="gender" value="FeMale">Female
+        <input type="radio" name="gender" value="Other">other <br>
+
+        연령대를 선택하세요
+        <input type="radio" name="age" value="0-30">0-30
+        <input type="radio" name="age" value="31-60">31-60
+        <input type="radio" name="age" value="61-100">61-100 <br>
+        Points <input type="range" name="pointrange" min="0" max="10"> <br>
+        Search <input type="search" name="search"><br>
+        Telephone : <input type="tel" name="telnumber" pattern="[0-9]{3}]-[0-9]{3,4}-[0-9]{4}" required><br>
+        시간을 선택하세요 <input type="time" name="time"><br>
+        귀하의 홈페이지를 입력하세요 <input type="url" name="homepage"><br>
+        <input type="submit">
+
+
+
+    </form>
+    
+</body>
+</html>

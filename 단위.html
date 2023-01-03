@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+    body{font-size: 14px;}
+    div {font-size: 0.8em;}
+</style>
+<body>
+    <!-- 단위중에 px(pixel) 절대단위 예)10px
+    상대단위 %, em 
+em은 부모를 기준으로 단위를 계산한다 body에서 14px이 기준이므로 첫번째 div는 14* 1.2 =16.8
+두번째 div는 16.8 *1.2 =20.16
+세번째 div는 20.16 * 1.2=24.192
+
+em단위의 약점을 보완하기 위해 rem단위가 사용된다 r은 root를 의미-->
+
+
+    <div>첫번째 div 입니다
+        <div>
+            두번째 div 입니다
+            <div>
+                세번째 div 입니다
+            </div>
+        </div>
+    </div>
+</body>
+</html>

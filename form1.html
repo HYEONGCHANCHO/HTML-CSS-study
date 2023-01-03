@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>폼태그</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>개인정보입력:</legend>
+            <label for=""> 이름 :</label>
+            <input type="text"> <br>
+            이메일 : <input type="email"> <br>
+            비밀번호 : <input type="password"> <br>
+        </fieldset>
+    </form>
+    <hr>
+    <form action="/action/login.php">
+        성 : <input type="text" value="Hong"> <br>
+        이름 : <input type="text" value="Gildong"> <br>
+        주소 : <input type="text" placeholder="도로명으로적어주세요"> <br>
+        <input type="submit" value="보내기"> 
+    </form>
+
+    <hr>
+    <label for="female">여성</label> <input type="radio" id="female" name="gender" checked> <br>
+    <label for="male">남성</label> <input type="radio" id="male" name="gender"> <br>
+    <label for="etc">기타</label> <input type="radio" id="etc" name="gender"> <br>
+    <input type="submit" value="보내기"> 
+
+    <hr>
+    <h2>여러개선택</h2>
+    <form action="">
+        <input type="checkbox" name="vehicle1" checked> 자전거 <br>
+        <input type="checkbox" name="vehicle2"> 오토바이 <br>
+        <input type="checkbox" name="vehicle3"> 킥보드 <br>
+        <input type="checkbox" name="vehicle4"> 보트 <br>
+    </form>
+
+    <hr>
+    <h2>오토포커스</h2>
+    <input type="text"><br>
+    <input type="text" autofocus="yes"><br>
+    
+    <hr>
+    <h2>멀티선택</h2>
+    <select name="cars" multiple>
+        <option value="hyundae">현대차</option>
+        <option value="kia">기아차</option>
+        <option value="samsung">삼성차</option>
+        <option value="ssangyoung">쌍용차</option>
+    </select>
+
+    <hr>
+    <select name="cars">
+        <optgroup label="Korean cars">
+        <option value="hyundae">현대차</option>
+        <option value="kia">기아차</option>
+        <option value="samsung">삼성차</option>
+        <option value="ssangyoung">쌍용차</option>
+        </optgroup>
+
+        <optgroup label="Germanswedish Cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+        </optgroup>
+    </select>
+
+
+</body>
+</html>

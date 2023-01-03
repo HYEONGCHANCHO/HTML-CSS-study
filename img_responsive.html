@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        /* img{width: 100%; }
+            
+             body{background-color: beige;
+            width: 70%;
+            border: 1px solid;
+            margin: 0 auto;} */
+    </style>
+</head>
+<body>
+    <h1>min-width /max-width</h1>
+    <!-- <img src="../images/final.png" alt=""> -->
+    <h1>responsive-width</h1>
+    <picture>
+        <source media="(min-width:1280px )" srcset="../images/image-4x.png">
+        <source media="(min-width:1000px )" srcset="../images/image-3x.png">
+        <source media="(min-width:800px )" srcset="../images/image-2x.png">
+        <source media="(min-width:600px )" srcset="../images/image-1x.png">
+        <img src="../images/image-src.png" alt="">
+    </picture>
+</body>
+</html>
