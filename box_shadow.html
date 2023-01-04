@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        :root{--gray : #f00}
+        p{width: 100px; height: 100px;
+        background-color:#e1ddda;
+        margin: 50px;}
+        p.one{box-shadow: -5px -5px var(--gray);}
+        p.two{box-shadow:  5px  5px 5px var(--gray);}
+        p.three{box-shadow:  5px  5px 5px 5px var(--gray);}
+        p.four{box-shadow: 0 0 10px var(--gray);}
+        p.five{box-shadow: inset 0 0 10px var(--gray);}
+
+    </style>
+</head>
+<body>
+    <p class="one"></p>
+    <p class="two"></p>
+    <p class="three"></p>
+    <p class="four"></p>
+    <p class="five"></p>
+
+</body>
+</html>
