@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        *{margin: 0;}
+        ul{padding: 0;}
+        li{background-color: black;
+            color: white;
+            text-align: center;
+            line-height: 40px;
+            width: 200px;
+            border-bottom:1px solid white}
+         li > ul {height: 0; overflow: hidden; }
+         li li{background-color: gray; border-bottom: 1px solid red;}   
+        li:hover > ul{height: 160px;}
+    </style>
+</head>
+<body>
+    <ul>
+        <li>menu1
+            <ul>
+                <li>menu1-1</li>
+                <li>menu1-2</li>
+                <li>menu1-3</li>
+                <li>menu1-4</li>
+            </ul>
+        </li>
+        <li>menu2
+            <ul>
+                <li>menu2-1</li>
+                <li>menu2-2</li>
+                <li>menu2-3</li>
+                <li>menu2-4</li>
+            </ul>
+        </li>
+        <li>menu3
+            <ul>
+                <li>menu3-1</li>
+                <li>menu3-2</li>
+                <li>menu3-3</li>
+                <li>menu3-4</li>
+            </ul>
+        </li>
+        <li>menu4
+            <ul>
+                <li>menu4-1</li>
+                <li>menu4-2</li>
+                <li>menu4-3</li>
+                <li>menu4-4</li>
+            </ul>
+        </li>
+        <li>menu5
+            <ul>
+                <li>menu5-1</li>
+                <li>menu5-2</li>
+                <li>menu5-3</li>
+                <li>menu5-4</li>
+            </ul>
+        </li>
+    </ul>
+    
+</body>
+</html>

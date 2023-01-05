@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        #parent{width: 500px; height: 500px;
+        border: 2px solid;
+        position:relative; top: 50px; left: 50px;}
+        #parent > div {width: 80px; height: 80px;
+        background-color: gray;}
+        #parent > div:nth-child(2) {background-color: red;
+        position: absolute; top: 50px; left: 50px;}
+        #parent > div:nth-child(3) {background-color: blue;
+        position: absolute; bottom: 50px; right: 50px;}
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div>child1</div>
+        <div>child2</div>
+        <div>child3</div>
+    </div>
+</body>
+</html>

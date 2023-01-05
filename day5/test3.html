@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        *{margin:0;}
+        ul{padding: 0; }
+        li{display: inline-block; border: 1px solid black;}
+        li::first-letter{text-transform: uppercase;}
+        li:nth-child(odd){background-color: black; color: white; padding: 20px 30px;}
+        li:nth-child(even){background-color: violet; color: white; padding: 20px 30px;}
+        li:first-child{border-radius: 10% 0 0 10%}
+        li:last-child{border-radius: 0 10% 10% 0}
+        
+        
+        li:hover{background-color: aqua; color: white; cursor: pointer;}
+
+    </style>
+</head>
+<body>
+    <h1>vertical navigation</h1>
+    <ul>
+        <li>Home</li><li>news</li><li>contact</li><li>about</li>
+    </ul>
+</body>
+</html>

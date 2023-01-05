@@ -1,0 +1,10 @@
+.column{width: 33%; background-color: white;}
+img{width: 100%;}
+.card{box-shadow: 0 4px 8px rgba(0,0,0,0.2);}
+.container{padding: 16px;}
+p.button{background-color: black; color: white;
+    text-align: center; padding: 8px 0;}
+p.button:hover{background-color: rgba(0,0,0,0.8);
+    cursor: pointer;}
+p.title{color: gray;}
+h2{font-family: 'Rowdies', cursive;}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+            *{margin: 0;}
+             ul{ padding: 0;}
+             li{background-color: blue; width: 200px;}
+             li a{color: white;
+                text-align: center;
+                display: block;
+                height: 30px;
+                line-height: 30px;
+                text-transform: uppercase;
+                border-bottom: 1px solid black;
+                padding: 4px 0;   
+                }
+             li:last-child{border-bottom: none;}   
+             li a:hover:not(.active){background-color: aqua;}
+             li a.active{background-color: gray;}      
+
+</style>
+</head>
+<body>
+    <h1>Vertical Navigation</h1>
+    <ul>
+        <li><a href="#" class="active"> Home</a></li><li><a href="#"> menu2</a></li><li><a href="#"> menu3</a></li><li><a href="#"> menu4</a></li><li><a href="#"> menu5</a></li>
+    </ul>
+</body>
+</html>
