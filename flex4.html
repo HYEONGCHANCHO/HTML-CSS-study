@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul, li {    margin: 0; padding: 0;
+                    list-style: none;}
+        ul {        background-color: powderblue;
+                    height: 200px;
+                    display: flex;
+                    flex-direction: row;}
+        .flex-item {background-color: tomato;
+                    color: white;
+                    border: 1px solid white;}
+        .flex-item:nth-child(2) {
+                    flex-basis: 400px;
+                    flex-shrink: 1;
+        }                        
+        .flex-item:nth-child(3) {
+                    flex-basis: 400px;
+                    flex-shrink: 2;
+        }    
+    </style>
+</head>
+<body>
+    <ul class="flex-container">
+        <li class="flex-item">1</li>
+        <li class="flex-item">2</li>
+        <li class="flex-item">3</li>
+        <li class="flex-item">4</li>
+        <li class="flex-item">5</li>
+        <li class="flex-item">6</li>
+    </ul>
+</body>
+</html>
