@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        *{margin: 0;}
+        ul{padding: 0;}
+        li {background-color: blue;
+            color: white;
+            display: block;
+            width: 180px;
+            text-align: center;
+            font-size: 16px;
+            padding: 10px 0;
+            }
+        li:not(:last-child){border-bottom: 1px solid black;}
+        li:hover:not(#index){background-color: aqua;}
+        #index{background-color: gray;}
+        li:hover{cursor: pointer;}
+</style>
+</head>
+<body>
+    <h1>Vertical</h1>
+    <ul>
+        <li id="index">Home</li>
+        <li>MENU2</li>
+        <li>MENU3</li>
+        <li>MENU4</li>
+        <li>MENU5</li>
+    </ul>
+</body>
+</html>

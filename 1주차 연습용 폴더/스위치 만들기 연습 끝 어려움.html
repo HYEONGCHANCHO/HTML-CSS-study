@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+     
+     input{display: none;}
+     .aaa{ display: block;
+            width: 160px;
+            height: 80px;
+            position: relative;}
+    .aa{background-color: gray;
+        position: absolute;
+        top: 0; bottom: 0; left: 0; right: 0;}
+    .aa::before{content: "";
+                background-color: white;
+                position: absolute;
+                top: 4px; left: 4px;
+                width: 80px;
+                height: 70px;
+                transition: 0.5s;}
+    input:checked + .aa::before {transform: translateX(80px);}
+    input:checked + .aa{background-color: aqua;}
+
+    .aa.b{border-radius: 10%;}
+    .aa.b::before{border-radius: 50%;}
+
+    </style>
+</head>
+<body>
+    <h1>Toggle Switch</h1>
+    <label class="aaa">
+    <input type="checkbox" name="" id="">
+    <div class="aa"></div>   
+    </label>
+
+    <div>
+    <label class="aaa">
+    <input type="checkbox" name="" id="">
+    <div class="aa b"></div>
+    </label>
+
+</body>
+</html>

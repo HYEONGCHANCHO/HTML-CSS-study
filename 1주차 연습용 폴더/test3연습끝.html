@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        *{margin: 0;}
+        ul{padding: 0;
+            list-style: none;}
+            li{background-color: black;
+                color: white;
+            float: left;
+            border: 1px solid black;
+            width: 100px;
+            line-height: 60px;
+            text-align: center;}
+            li:nth-child(even){background-color: violet;}
+        li::first-letter{text-transform: uppercase;}
+        li:nth-child(1) {border-radius: 10% 0 0 10%;}
+        li:nth-child(4) {border-radius: 0 10% 10% 0;}
+
+    </style>
+</head>
+<body>
+    <h1>vertical navigation</h1>
+    <ul>
+        <li>home</li>
+        <li>news</li>
+        <li>contact</li>
+        <li>about</li>
+    </ul>
+</body>
+</html>
